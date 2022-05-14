@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;tw.com.spring.ioc.userModel.dao.impl.UserDATImpl.java&apos; to &apos;UserDAOImpl.java&apos;&#x0D;&#x0A;- Original project: &apos;Demo19_基於xml的自動裝配和基於註解的組件掃描&apos;&#x0D;&#x0A;- Original element: &apos;tw.com.spring.ioc.userModel.dao.impl.UserDATImpl.java&apos;&#x0D;&#x0A;- Renamed element: &apos;tw.com.spring.ioc.userModel.dao.impl.UserDAOImpl.java&apos;" description="Rename compilation unit &apos;UserDATImpl.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;tw.com.spring.ioc.userModel.dao.impl{UserDATImpl.java" name="UserDAOImpl.java" references="false" stamp="1651469237072" version="1.0"/>
+</session>

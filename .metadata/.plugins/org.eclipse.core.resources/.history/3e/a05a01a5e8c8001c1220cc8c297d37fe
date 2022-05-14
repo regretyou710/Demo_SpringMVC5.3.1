@@ -1,0 +1,5 @@
+package tw.com.spring.di;
+
+public class Teacher {
+
+}

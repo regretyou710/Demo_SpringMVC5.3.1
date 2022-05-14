@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Demo06_注入方式/conf/beas-di.xml&apos; to &apos;beans-di.xml&apos;" description="Rename resource &apos;beas-di.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="conf/beas-di.xml" name="beans-di.xml" stamp="1651360913489" updateReferences="true"/>
+</session>

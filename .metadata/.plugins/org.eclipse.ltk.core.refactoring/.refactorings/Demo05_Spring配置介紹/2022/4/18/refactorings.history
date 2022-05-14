@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;lib&apos; to &apos;Demo06_注入方式&apos;&#x0D;&#x0A;- Original project: &apos;Demo05_Spring配置介紹&apos;&#x0D;&#x0A;- Destination element: &apos;Demo06_注入方式&apos;&#x0D;&#x0A;- Original element: &apos;lib&apos;" description="Copy folder" element1="lib" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1651360503455" target="/Demo06_注入方式" units="0" version="1.0"/>
+</session>

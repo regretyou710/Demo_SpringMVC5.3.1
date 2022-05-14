@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;lib&apos; to &apos;Demo16_引用外部資源文件&apos;&#x0D;&#x0A;- Original project: &apos;Demo15_bean的後置處理器&apos;&#x0D;&#x0A;- Destination element: &apos;Demo16_引用外部資源文件&apos;&#x0D;&#x0A;- Original element: &apos;lib&apos;" description="Copy folder" element1="lib" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1651446093246" target="/Demo16_引用外部資源文件" units="0" version="1.0"/>
+</session>
