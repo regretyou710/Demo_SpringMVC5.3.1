@@ -92,7 +92,7 @@ Spring版本：5.3.1
 
 注：由於 Maven 的傳遞性，我們不必將所有需要的包全部配置依賴，而是配置最頂端的依賴，其他靠傳遞性導入。
 
-![images](img\img001.png)
+![images](./img/img001.png)
 
 ### 3、配置web.xml
 
@@ -683,7 +683,7 @@ public String testHello(){
 }
 ```
 
-![](img/img002.png)
+![](./img/img002.png)
 
 ### 2、轉發視圖
 
@@ -702,7 +702,7 @@ public String testForward(){
 }
 ```
 
-![image-20210706201316593](img/img003.png)
+![image-20210706201316593](./img/img003.png)
 
 ### 3、重定向視圖
 
@@ -719,7 +719,7 @@ public String testRedirect(){
 }
 ```
 
-![image-20210706201602267](img/img004.png)
+![image-20210706201602267](./img/img004.png)
 
 > 注：
 >
@@ -1708,7 +1708,7 @@ public String index(){
 
 DispatcherServlet 本質上是一個 Servlet，所以天然的遵循 Servlet 的生命週期。所以宏觀上是 Servlet 生命週期來進行調度。
 
-![images](img/img005.png)
+![images](./img/img005.png)
 
 ##### a>初始化WebApplicationContext
 
@@ -2092,15 +2092,15 @@ i. 再判斷是否配置了mvc:default-servlet-handler
 
 ii. 如果沒配置，則控制台報映射查找不到，用戶端展示404錯誤
 
-![image-20210709214911404](img/img006.png)
+![image-20210709214911404](./img/img006.png)
 
-![image-20210709214947432](img/img007.png)
+![image-20210709214947432](./img/img007.png)
 
 iii. 如果有配置，則訪問目標資源（一般為靜態資源，如：JS,CSS,HTML），找不到用戶端也會展示404錯誤
 
-![image-20210709215255693](img/img008.png)
+![image-20210709215255693](./img/img008.png)
 
-![image-20210709215336097](img/img009.png)
+![image-20210709215336097](./img/img009.png)
 
 b) 存在則執行下面的流程
 
