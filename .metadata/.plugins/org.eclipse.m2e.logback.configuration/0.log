@@ -1691,3 +1691,80 @@
 2022-05-23 20:16:14,239 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo07_默認方式配置\src\main\resources
 2022-05-23 20:16:14,241 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-05-23 20:16:14,241 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo07_默認方式配置\src\test\resources
+2022-05-23 20:28:05,517 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:28:05,519 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo07_默認方式配置\src\main\resources
+2022-05-23 20:28:05,520 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:28:05,521 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo07_默認方式配置\src\test\resources
+2022-05-23 20:28:20,206 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:28:20,207 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo07_默認方式配置\src\main\resources
+2022-05-23 20:28:20,207 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:28:20,208 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo07_默認方式配置\src\test\resources
+2022-05-23 20:28:41,566 [Worker-44: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Demo07:Demo07:0.0.1-SNAPSHOT @ C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\pom.xml.
+2022-05-23 20:28:41,744 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:28:41,746 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\main\resources
+2022-05-23 20:28:41,746 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:28:41,746 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\test\resources
+2022-05-23 20:28:51,177 [Worker-55: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Demo08:Demo08:0.0.1-SNAPSHOT @ C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\pom.xml.
+2022-05-23 20:28:51,421 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:28:51,422 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\main\resources
+2022-05-23 20:28:51,424 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:28:51,424 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\test\resources
+2022-05-23 20:28:51,425 [Worker-55: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Demo08_擴展方式配置
+2022-05-23 20:28:51,425 [Worker-55: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Demo08_擴展方式配置
+2022-05-23 20:28:51,435 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:29:33,208 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:29:33,208 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\main\resources
+2022-05-23 20:29:33,210 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:29:33,210 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\test\resources
+2022-05-23 20:29:51,801 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:29:51,802 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\main\resources
+2022-05-23 20:29:51,802 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:29:51,802 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\test\resources
+2022-05-23 20:34:04,990 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:34:04,990 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo07_默認方式配置\src\main\resources
+2022-05-23 20:34:04,992 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:34:04,994 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo07_默認方式配置\src\test\resources
+2022-05-23 20:35:50,795 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:35:50,796 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\main\resources
+2022-05-23 20:35:50,797 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:35:50,798 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\test\resources
+2022-05-23 20:36:32,214 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:36:32,214 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\main\resources
+2022-05-23 20:36:32,215 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:36:32,215 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\test\resources
+2022-05-23 20:36:43,769 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:36:43,770 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\main\resources
+2022-05-23 20:36:43,771 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:36:43,771 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\test\resources
+2022-05-23 20:38:36,826 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:38:36,826 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo07_默認方式配置\src\main\resources
+2022-05-23 20:38:36,827 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:38:36,828 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo07_默認方式配置\src\test\resources
+2022-05-23 20:38:58,333 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:38:58,335 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\main\resources
+2022-05-23 20:38:58,335 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:38:58,336 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\test\resources
+2022-05-23 20:39:00,659 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:39:00,661 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo07_默認方式配置\src\main\resources
+2022-05-23 20:39:00,661 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:39:00,662 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo07_默認方式配置\src\test\resources
+2022-05-23 20:40:15,786 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:40:15,786 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\main\resources
+2022-05-23 20:40:15,788 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:40:15,788 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\test\resources
+2022-05-23 20:40:33,676 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:40:33,677 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\main\resources
+2022-05-23 20:40:33,678 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:40:33,678 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\test\resources
+2022-05-23 20:51:42,530 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:51:42,531 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\main\resources
+2022-05-23 20:51:42,532 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:51:42,533 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\test\resources
+2022-05-23 20:52:34,332 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:52:34,333 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\main\resources
+2022-05-23 20:52:34,333 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:52:34,335 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\test\resources
+2022-05-23 20:58:08,858 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:58:08,860 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\main\resources
+2022-05-23 20:58:08,861 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-23 20:58:08,862 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Demo_SpringMVC5.3.1\Demo08_擴展方式配置\src\test\resources
