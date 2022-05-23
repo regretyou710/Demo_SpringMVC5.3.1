@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>Demo07_默認方式配置</display-name>
+	<!-- 配置SpringMVC的前端控制器，對流覽器發送的請求統一進行處理 -->
+	<servlet>
+		<servlet-name>springMVC</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>springMVC</servlet-name>
+	    <!--
+		        設置springMVC的核心控制器所能處理的請求的請求路徑
+		        /所匹配的請求可以是/login或.html或.js或.css方式的請求路徑
+		        但是/不能匹配.jsp請求路徑的請求
+		   /*表示會匹配.jsp請求路徑的請求
+	    -->
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+</web-app>
