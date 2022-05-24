@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>首頁</h1>
+	<!-- 以斜線開頭的路徑叫做絕對路徑，而絕對路徑又分為瀏覽器解析和服務器解析 -->
+	<!-- 超連結所寫的絕對路徑是由瀏覽器解析的，當中的斜線表示的是從域名底下開始訪問 -->
+	<!-- http://localhost:8080/Demo12_訪問指定頁面，其中Demo12_訪問指定頁面表示上下文路徑 -->
+	<a href="/target">訪問目標頁面target.html</a>
+	<br />
+	<!-- 透過thymeleaf語法，將絕對路徑解析為有上下文的路徑 -->
+	<a th:href="@{/target}">訪問目標頁面target.html</a>
+</body>
+</html>
