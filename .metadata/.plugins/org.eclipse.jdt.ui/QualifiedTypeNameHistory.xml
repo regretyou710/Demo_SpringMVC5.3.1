@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="tw.com.spring.ioc.auto.byName.Car"/>
 <fullyQualifiedTypeName name="tw.com.spring.ioc.auto.byName.Emp"/>
 <fullyQualifiedTypeName name="tw.com.spring.ioc.auto.byType.IDept"/>
 <fullyQualifiedTypeName name="tw.com.spring.ioc.auto.byType.SuperCar"/>
@@ -54,10 +53,11 @@
 <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Propagation"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
 <fullyQualifiedTypeName name="B"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Parameter"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 </qualifiedTypeNameHistroy>
