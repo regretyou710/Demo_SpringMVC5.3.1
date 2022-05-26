@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.1.xsd">
+	
+	<!-- 自動掃描包 -->
+	<context:component-scan
+		base-package="tw.com.mvc.controller"></context:component-scan>
+
+	<!-- 配置Thymeleaf視圖解析器 -->
+	<bean id="viewResolver"
+		class="org.thymeleaf.spring5.view.ThymeleafViewResolver">
+		<!-- 視圖配置多個時可設定優先順序 -->
+		<property name="order" value="1" />
+		
+		<property name="characterEncoding" value="UTF-8" />
+		<property name="templateEngine">
+			<bean class="org.thymeleaf.spring5.SpringTemplateEngine">
+				<property name="templateResolver">
+					<bean
+						class="org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver">
+
+						<!-- 視圖首碼 -->
+						<property name="prefix" value="/WEB-INF/templates/" />
+
+						<!-- 視圖尾碼 -->
+						<property name="suffix" value=".html" />
+						<property name="templateMode" value="HTML5" />
+						<property name="characterEncoding" value="UTF-8" />
+					</bean>
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+</beans>

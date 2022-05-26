@@ -151,7 +151,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Demo20_測試form表單是否能夠發送put和delete請求方式的請求" path="/Demo20" reloadable="true" source="org.eclipse.jst.jee.server:Demo20_測試form表單是否能夠發送put和delete請求方式的請求"/></Host>
+      <Context docBase="Demo23_SpringMVC支持ant風格的路徑" path="/Demo23" reloadable="true" source="org.eclipse.jst.jee.server:Demo23_SpringMVC支持ant風格的路徑"/><Context docBase="Demo24_SpringMVC支持路徑中的佔位符" path="/Demo24" reloadable="true" source="org.eclipse.jst.jee.server:Demo24_SpringMVC支持路徑中的佔位符"/><Context docBase="Demo25_回顧原生Servlet獲取請求參數" path="/Demo25" reloadable="true" source="org.eclipse.jst.jee.server:Demo25_回顧原生Servlet獲取請求參數"/></Host>
     </Engine>
   </Service>
 </Server>

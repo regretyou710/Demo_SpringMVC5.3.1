@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>首頁</h1>
+	<a th:href="@{/a1a/testAnt1}">測試RequestMapping可以匹配ant風格的路徑-->使用?</a>
+	<br />
+	<a th:href="@{/aaaa/testAnt2}">測試RequestMapping可以匹配ant風格的路徑-->使用*</a>
+	<br />
+	<a th:href="@{/a1a/a/a/a/testAnt3}">測試RequestMapping可以匹配ant風格的路徑-->使用**</a>
+</body>
+</html>
