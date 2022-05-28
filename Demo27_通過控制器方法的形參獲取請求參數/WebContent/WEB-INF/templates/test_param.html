@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>測試請求參數</h1>
+	<a th:href="@{/testParam(username='admin',password=1234)}">測試使用控制器形參獲取情求參數</a>
+	<br />
+	<form th:action="@{/testParam2}" method="post">
+		姓名:
+		<input type="text" name="username" />
+		<br />
+		密碼:
+		<input type="password" name="password" />
+		<br />
+		喜好:
+		<input type="checkbox" name="hobby" value="ANDROID" />
+		<label>ANDROID</label>
+		<input type="checkbox" name="hobby" value="IOS" />
+		<label>IOS</label>
+		<br />
+		<input type="submit" value="測試使用控制器形參獲取情求參數" />
+	</form>
+</body>
+</html>

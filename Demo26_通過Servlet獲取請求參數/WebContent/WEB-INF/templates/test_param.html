@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>測試請求參數</h1>
+	<a th:href="@{/testServletAPI(username='admin',password=1234)}">測試使用servletAPI獲取情求參數</a>
+</body>
+</html>

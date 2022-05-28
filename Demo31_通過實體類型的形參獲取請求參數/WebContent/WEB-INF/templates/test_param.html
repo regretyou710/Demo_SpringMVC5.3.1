@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>測試請求參數</h1>
+	<a th:href="@{/testParam(username='admin',password=1234)}">測試使用控制器形參獲取情求參數</a>
+	<br />
+	<a th:href="@{/testServletAPI}">請求建立session</a>
+	<form th:action="@{/testBean}" method="post">
+		用戶名：
+		<input type="text" name="username">
+		<br>
+		密碼：
+		<input type="password" name="password">
+		<br>
+		性別：
+		<input type="radio" name="sex" value="男">
+		男
+		<input type="radio" name="sex" value="女">
+		女
+		<br>
+		年齡：
+		<input type="text" name="age">
+		<br>
+		郵箱：
+		<input type="text" name="email">
+		<br>
+		<input type="submit">
+	</form>
+</body>
+</html>
