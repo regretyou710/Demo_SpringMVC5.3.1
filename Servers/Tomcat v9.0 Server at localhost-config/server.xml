@@ -151,7 +151,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Demo30_@CookieValue註解處理cookie數據和控制器方法的形參的映射關係" path="/Demo30" reloadable="true" source="org.eclipse.jst.jee.server:Demo30_@CookieValue註解處理cookie數據和控制器方法的形參的映射關係"/><Context docBase="Demo31_通過實體類型的形參獲取請求參數" path="/Demo31" reloadable="true" source="org.eclipse.jst.jee.server:Demo31_通過實體類型的形參獲取請求參數"/></Host>
+      <Context docBase="Demo36_通過ModelAndView向request域對象共享數據" path="/Demo36" reloadable="true" source="org.eclipse.jst.jee.server:Demo36_通過ModelAndView向request域對象共享數據"/><Context docBase="Demo37_通過Model向request域對象共享數據" path="/Demo37" reloadable="true" source="org.eclipse.jst.jee.server:Demo37_通過Model向request域對象共享數據"/><Context docBase="Demo38_通過map向request域對象共享數據" path="/Demo38" reloadable="true" source="org.eclipse.jst.jee.server:Demo38_通過map向request域對象共享數據"/></Host>
     </Engine>
   </Service>
 </Server>
