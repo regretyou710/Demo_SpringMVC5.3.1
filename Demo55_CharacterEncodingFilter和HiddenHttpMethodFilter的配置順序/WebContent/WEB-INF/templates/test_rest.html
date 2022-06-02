@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<a th:href="@{/user}">查詢所有用戶訊息</a>
+	<br />
+	<a th:href="@{/user/1}">根據id查詢用戶訊息</a>
+	<br />
+	<fieldset style="width: 100px;">
+		<legend>表單</legend>
+		<form th:action="@{/user}" method="post">
+			<label>姓名:</label>
+			<input type="text" name="username" value="管理員" />
+			<br />
+			<label>密碼:</label>
+			<input type="password" name="password" value="1234" />
+			<br />
+			<input type="submit" value="添加" />
+		</form>
+	</fieldset>
+	<br />
+	<fieldset style="width: 100px;">
+		<legend>表單</legend>
+		<form th:action="@{/user}" method="post">
+			<input type="hidden" name="_method" value="put" />
+			<label>姓名:</label>
+			<input type="text" name="username" value="管理員" />
+			<br />
+			<label>密碼:</label>
+			<input type="password" name="password" value="1234" />
+			<br />
+			<input type="submit" value="修改" />
+		</form>
+	</fieldset>
+</body>
+</html>

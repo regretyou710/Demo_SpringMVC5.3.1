@@ -6,7 +6,7 @@
 </head>
 <body>
 	<h1>首頁</h1>
-	<!-- 請求路徑匹配成功，請求方法映射為PUT但表單會以默認GET請求，所以匹配失敗 -->
+	<!-- 請求路徑匹配成功，請求方法映射為PUT但表單透過瀏覽器發送GET請求，所以匹配失敗 -->
 	<form th:action="@{/testPut}" method="put">
 		<input type="submit" value="測試form表單是否能夠發送put或delete請求方式" />
 	</form>
