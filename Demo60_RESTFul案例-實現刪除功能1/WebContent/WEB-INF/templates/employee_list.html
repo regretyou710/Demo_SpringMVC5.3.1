@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Employee Info</title>
+<script type="text/javascript">
+	function deleteEmployee(contextPath, id) {
+		//console.log(contextPath + id);
+		var deleteForm = document.getElementById('deleteForm');
+		deleteForm.action = contextPath + id;
+		deleteForm.submit();
+		
+		// 取消默認行為
+		event.preventDefault();
+	}
+</script>
+</head>
+<body>
+	<table cellspacing="0" cellpadding="0" border="1">
+		<tr>
+			<th colspan="5">Employee Info</th>
+		</tr>
+		<tr>
+			<th>id</th>
+			<th>lastName</th>
+			<th>email</th>
+			<th>gender</th>
+			<th>options</th>
+		</tr>
+		<tr th:each="employee : ${employeeList}">
+			<td th:text="${employee.id}"></td>
+			<td th:text="${employee.lastName}"></td>
+			<td th:text="${employee.email}"></td>
+			<td th:text="${employee.gender}"></td>
+			<td>
+				<a href="">update</a>
+				<a th:onclick="|deleteEmployee('@{/employee/}','${employee.id}')|" href="#">delete</a>
+
+				<!-- Demo60/employee/1001 -->
+				<!-- <a th:onclick="|deleteEmployee('@{/employee/}'+${employee.id})|">delete</a>  -->
+
+				<!-- <a th:href="@{/employee/}+${employee.id}">delete</a> -->
+				<!-- <a th:href="@{'/employee/'+${employee.id}}">delete</a> -->
+			</td>
+		</tr>
+	</table>
+
+	<form id="deleteForm" method="post">
+		<input type="hidden" name="_method" value="delete" />
+	</form>
+</body>
+</html>
