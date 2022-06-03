@@ -83,6 +83,7 @@ public class ParamController {
 		return "success";
 	}
 
+	// 請求參數名稱與實體類屬性名稱保持一致
 	@RequestMapping("/testBean")
 	public String testBean(User user) {
 		System.out.println(user);

@@ -1,0 +1,61 @@
+package tw.com.mvc.rest.controller;
+
+import java.util.Collection;
+import java.util.Comparator;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import tw.com.mvc.rest.bean.Employee;
+import tw.com.mvc.rest.dao.EmployeeDAO;
+
+@Controller
+public class EmployeeController {
+
+	@Autowired
+	private EmployeeDAO employeeDAO;
+
+	@RequestMapping(value = "/employee", method = RequestMethod.GET)
+	public String getAllEmployee(Model model) {
+		Collection<Employee> employeeList = employeeDAO.getAll();
+		model.addAttribute("employeeList", employeeList);
+		model.addAttribute("byId", Comparator.comparing(Employee::getId));
+		return "employee_list";
+	}
+
+	@DeleteMapping("/employee/{id}")
+	public String deleteEmployee(@PathVariable("id") Integer id) {
+		employeeDAO.delete(id);
+
+		// 因為操作成功後就跟原來發送刪除的請求無關，所以使用重定向
+		return "redirect:/employee";
+	}
+
+	@PostMapping("/employee")
+	public String addEmployee(Employee employee) {
+		employeeDAO.save(employee);
+
+		// 因為重定向相當於在網址列中輸入所以請求方法會是映射GET
+		return "redirect:/employee";
+	}
+
+	@RequestMapping(value = "/employee/{id}", method = RequestMethod.GET)
+	public String getEmployeeById(@PathVariable("id") Integer id, Model model) {
+		Employee employee = employeeDAO.get(id);
+		model.addAttribute("employee", employee);
+		return "employee_update";
+	}
+
+	@PutMapping("/employee")
+	public String updateEmployee(Employee employee) {
+		employeeDAO.save(employee);
+		return "redirect:/employee";
+	}
+}

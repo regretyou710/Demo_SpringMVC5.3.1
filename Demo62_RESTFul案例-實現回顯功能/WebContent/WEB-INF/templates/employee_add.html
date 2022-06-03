@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>add employee</title>
+</head>
+<body>
+	<form th:action="@{/employee}" method="post">
+		<label>lastName</label>
+		<input type="text" name="lastName" value="Eason" />
+		<br />
+		<label>email</label>
+		<input type="text" name="email" value="123@qq.com" />
+		<br />
+		<label>gender</label>
+		<input type="radio" name="gender" value="1">
+		male
+		<input type="radio" name="gender" value="0">
+		female
+		<br />
+		<input type="submit" value="add" />
+	</form>
+</body>
+</html>
