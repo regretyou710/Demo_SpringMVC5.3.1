@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>首頁</title>
+</head>
+<body>
+	<h1>首頁</h1>
+	<Form th:action="@{/testRequestBody}" method="post">
+		<input type="text" name="username" />
+		<input type="text" name="password" />
+		<input type="submit" value="測試@RequestBody" />
+	</Form>
+	<Form th:action="@{/testRequestEntity}" method="post">
+		<input type="text" name="username" />
+		<input type="text" name="password" />
+		<input type="submit" value="測試RequestEntity" />
+	</Form>
+</body>
+</html>
