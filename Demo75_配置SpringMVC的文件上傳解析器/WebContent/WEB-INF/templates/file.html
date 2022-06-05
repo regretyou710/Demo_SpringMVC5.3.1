@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>測試文件上傳和下載</title>
+</head>
+<body>
+	<a th:href="@{/testDown}">下載1.jpg</a>
+
+	<!-- 上傳method必須是post -->
+	<!-- 設定enctype="multipart/form-data"後，格式會以二進制方式上傳(不會再以key-value) -->
+	<!-- 配置maven文件上傳依賴包 -->
+	<!-- 配置springMVC文件上傳解析器 -->
+	<form method="post" th:action="@{/testUp}" enctype="multipart/form-data">
+		頭像:
+		<input type="file" name="photo" />
+		<input type="submit" value="上傳" />
+	</form>
+</body>
+</html>

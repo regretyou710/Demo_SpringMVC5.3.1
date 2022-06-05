@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="deleteEmployee"/>
+		<item key="selection" value="ResponseEntity"/>
 		<list key="findhistory">
+			<item value="responseEntity"/>
 			<item value="deleteEmployee"/>
 			<item value="contextConfigLocation"/>
 			<item value=""/>

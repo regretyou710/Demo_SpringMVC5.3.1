@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>首頁</title>
+<script type="text/javascript" th:src="@{/static/js/jquery-3.4.1.min.js}"></script>
+<script type="text/javascript">
+	function ajaxFun(currentEvent, currentObj, contextPath) {
+		currentEvent = currentEvent || window.event;
+
+		//console.log(event.target);
+		//console.log(currentObj);		
+		//console.log(contextPath);
+
+		var ajaxForm = document.getElementById('ajaxForm');
+		ajaxForm.action = contextPath;
+
+		var data = {
+			'username' : 'admin',
+			'password' : '1234'
+		};
+
+		$.ajax({
+			url : ajaxForm.action,
+			type : 'POST',
+			data : data,
+			success : function(data, status, xhr) {
+				alert(data);
+			},
+			error : function(xhr, status, error) {
+				alert(error);
+			}
+		});
+
+		currentEvent.preventDefault();
+	}
+</script>
+</head>
+<body>
+	<h1>首頁</h1>
+	<a id="executeAjax" th:onclick="|javascript:window.ajaxFun(event,this,'@{/testAxios}');|" href="#">SpringMVC處理ajax</a>
+	<form id="ajaxForm" method="post"></form>
+</body>
+</html>

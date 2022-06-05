@@ -37,7 +37,7 @@ public class HttpController {
 	@RequestMapping("/testResponseBody")
 	@ResponseBody
 	public String testResponseBody() {
-		// 加上@ResponseBody後，會返回響應體內容而不是試圖頁面
+		// 加上@ResponseBody後，會返回響應體內容而不是視圖頁面
 		return "ResponseBody";
 	}
 

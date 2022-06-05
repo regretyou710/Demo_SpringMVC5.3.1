@@ -151,7 +151,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Demo66_@RequestBody註解獲取請求體訊息" path="/Demo66" reloadable="true" source="org.eclipse.jst.jee.server:Demo66_@RequestBody註解獲取請求體訊息"/><Context docBase="Demo67_RequestEntity類型表示完整的請求報文訊息" path="/Demo67" reloadable="true" source="org.eclipse.jst.jee.server:Demo67_RequestEntity類型表示完整的請求報文訊息"/><Context docBase="Demo68_通過HttpServletResponse響應瀏覽器數據" path="/Demo68" reloadable="true" source="org.eclipse.jst.jee.server:Demo68_通過HttpServletResponse響應瀏覽器數據"/><Context docBase="Demo69_通過@ResponseBody響應瀏覽器數據" path="/Demo69" reloadable="true" source="org.eclipse.jst.jee.server:Demo69_通過@ResponseBody響應瀏覽器數據"/><Context docBase="Demo70_SpringMVC處理json" path="/Demo70" reloadable="true" source="org.eclipse.jst.jee.server:Demo70_SpringMVC處理json"/></Host>
+      <Context docBase="Demo75_配置SpringMVC的文件上傳解析器" path="/Demo75" reloadable="true" source="org.eclipse.jst.jee.server:Demo75_配置SpringMVC的文件上傳解析器"/><Context docBase="Demo76_實現文件上傳功能" path="/Demo76" reloadable="true" source="org.eclipse.jst.jee.server:Demo76_實現文件上傳功能"/></Host>
     </Engine>
   </Service>
 </Server>
