@@ -58,6 +58,6 @@
 	<!-- 如果在DispatcherServlet中找不到相對應的請求映射，就會交給默認的servlet進行處理 -->
 	<!-- 如果默認的servlet能找到資源，就訪問資源 -->
 	<!-- 如果默認的servlet找不到資源，就報404 -->
-	<!-- 開放對靜態資源的訪問 -->
+	<!-- 開放對靜態資源的訪問(需搭配開啟註解驅動) -->
 	<mvc:default-servlet-handler />
 </beans>
