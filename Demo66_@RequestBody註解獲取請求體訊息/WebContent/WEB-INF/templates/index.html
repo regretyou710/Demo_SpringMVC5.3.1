@@ -6,6 +6,7 @@
 </head>
 <body>
 	<h1>首頁</h1>
+	<!-- 要發送有請求體的請求必須是post -->
 	<Form th:action="@{/testRequestBody}" method="post">
 		<input type="text" name="username" />
 		<input type="text" name="password" />
