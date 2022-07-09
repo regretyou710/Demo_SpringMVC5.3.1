@@ -4,12 +4,14 @@
 <meta charset="UTF-8">
 <title>Employee Info</title>
 <script type="text/javascript">
-	function deleteEmployee(contextPath, id) {
+	function deleteEmployee(currentEvent, contextPath, id) {
+		//console.log(currentEvent);
 		//console.log(contextPath + id);
-		var deleteForm = document.getElementById('deleteForm');
+		deleteForm = document.getElementById('deleteForm');
 		deleteForm.action = contextPath + id;
 		deleteForm.submit();
-s	}
+		currentEvent.preventDefault();
+	}
 </script>
 </head>
 <body>
@@ -31,7 +33,7 @@ s	}
 			<td th:text="${employee.gender}"></td>
 			<td>
 				<a href="">update</a>
-				<a th:onclick="|deleteEmployee('@{/employee/}','${employee.id}')|" href="#">delete</a>
+				<a th:onclick="|deleteEmployee(currentEvent,'@{/employee/}','${employee.id}')|" href="#">delete</a>
 
 				<!-- Demo60/employee/1001 -->
 				<!-- <a th:onclick="|deleteEmployee('@{/employee/}'+${employee.id})|">delete</a>  -->
