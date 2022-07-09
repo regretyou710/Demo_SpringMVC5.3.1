@@ -3773,3 +3773,1414 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:37:28.658
 !MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:40:38.243
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:40:38.245
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:42:40.320
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:42:40.322
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:45:53.544
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:45:53.545
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2022-07-09 20:45:59.729
+!MESSAGE Connection to http://jope.ow2.org/update/jope/site.xml failed on jope.ow2.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2022-07-09 20:45:59.937
+!MESSAGE Connection to http://jope.ow2.org/update/jope/p2.index failed on jope.ow2.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:48:08.426
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:48:08.427
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2022-07-09 20:50:20.313 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-07-09 20:51:10.154
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\WorkermanVM1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:21.826
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:21.826
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:22.498
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:22.498
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:22.842
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:22.842
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:22.967
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:22.967
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:23.139
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:23.139
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:23.248
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:23.265
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:23.967
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:23.982
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.079
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.093
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.201
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.201
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.297
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.312
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.404
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.404
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.500
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.500
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.593
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.593
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.686
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.686
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.781
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.797
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.907
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:24.907
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.013
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.013
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.124
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.124
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.236
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.236
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.374
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.374
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.514
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.514
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.623
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.623
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.749
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.749
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.860
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.860
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.982
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:25.982
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.080
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.080
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.171
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.171
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.264
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.264
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.359
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.359
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.451
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.451
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.545
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.545
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.641
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.655
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.750
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.750
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.873
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.873
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.983
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:26.983
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.079
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.079
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.174
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.174
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.250
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.250
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.342
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.342
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.438
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.452
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.547
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.547
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.639
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.639
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.733
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.733
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.829
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.829
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.936
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:27.936
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.141
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.141
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.267
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.281
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.373
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.373
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.529
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.529
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.624
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.624
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.719
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.719
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.814
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.829
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.906
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:28.906
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.014
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.014
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.111
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.125
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.220
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.220
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.328
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.344
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.451
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.451
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.593
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.593
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.719
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.719
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.827
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.827
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.923
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:29.923
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.047
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.047
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.170
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.170
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.297
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.297
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.405
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.405
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.545
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.545
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.654
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.671
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.795
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.795
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.921
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:30.921
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:31.054
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:31.054
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:51.102
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:51:51.102
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2022-07-09 20:54:13.902 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-07-09 20:54:34.655
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\WorkermanVM1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:44.134
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:44.138
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:44.788
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:44.791
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:45.406
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:45.408
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:45.520
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:45.523
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:45.649
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:45.651
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:45.762
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:45.765
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:45.881
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:45.883
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:45.979
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:45.982
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.089
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.090
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.183
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.183
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.278
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.280
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.377
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.379
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.473
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.474
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.563
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.565
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.653
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.654
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.764
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.766
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.916
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:46.918
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.034
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.035
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.139
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.139
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.247
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.248
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.346
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.348
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.470
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.472
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.588
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.589
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.698
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.699
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.803
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.805
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.893
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.896
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.993
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:47.994
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.127
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.129
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.220
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.220
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.306
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.308
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.487
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.487
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.586
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.588
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.680
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.681
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.778
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.780
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.889
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.889
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.973
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:48.974
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.053
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.055
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.145
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.147
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.224
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.226
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.305
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.306
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.408
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.408
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.495
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.496
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.593
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.594
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.685
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.687
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.775
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.777
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.868
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.870
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.967
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:49.968
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.082
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.083
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.214
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.216
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.311
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.312
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.399
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.399
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.483
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.484
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.570
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.571
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.672
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.675
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.774
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.775
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.866
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:50.868
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.012
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.013
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.173
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.175
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.298
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.300
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.421
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.422
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.525
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.525
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.643
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.645
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.765
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.767
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.876
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.878
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.988
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:51.989
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:52.099
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:52.100
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:52.211
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:52.213
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:52.341
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:52.343
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:52.468
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:52.470
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:52.594
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:52.595
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:52.713
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:54:52.714
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:55:19.706
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:55:19.708
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:57:42.719
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:57:42.721
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2022-07-09 20:57:47.961 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-07-09 20:58:22.284
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\WorkermanVM1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:31.622
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:31.625
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:32.184
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:32.186
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:32.257
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:32.259
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:32.323
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:32.325
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:32.387
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:32.389
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:32.463
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:32.465
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:32.551
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:32.553
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:32.662
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:32.666
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.425
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.427
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.492
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.493
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.553
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.553
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.614
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.616
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.681
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.682
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.754
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.756
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.823
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.825
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.897
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.900
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.963
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:36.965
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.021
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.023
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.079
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.081
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.149
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.151
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.215
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.217
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.312
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.314
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.373
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.374
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.428
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.430
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.487
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.489
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.537
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.537
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.587
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.587
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.635
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.637
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.686
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.687
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.738
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.739
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.787
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.789
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.837
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.839
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.888
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.890
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.938
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.939
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.987
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:37.988
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.038
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.040
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.089
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.090
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.142
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.143
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.193
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.193
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.244
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.246
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.303
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.305
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.365
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.367
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.419
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.419
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.467
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.469
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.515
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.516
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.564
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.565
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.616
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.617
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.668
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.669
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.720
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.721
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.781
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.781
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.829
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.830
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.879
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.881
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.927
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.927
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.983
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:38.984
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.037
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.037
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.138
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.139
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.194
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.196
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.266
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.267
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.357
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.359
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.505
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.507
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.570
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.571
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.629
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:39.630
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:40.618
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:40.619
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:40.695
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:40.697
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:40.779
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:40.780
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:40.849
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:40.850
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:40.921
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:40.923
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:40.993
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:40.995
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:41.066
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:41.067
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:41.143
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:41.145
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:41.216
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-09 20:58:41.218
+!MESSAGE Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
